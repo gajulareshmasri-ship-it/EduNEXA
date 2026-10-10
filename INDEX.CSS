@@ -1,0 +1,303 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  font-size: 17px;
+  background: linear-gradient(135deg, #e0f2fe, #fce7f3, #fef9c3);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 6px 0;
+  color: #1e3a8a;
+}
+
+.top {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  color: white;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.top h2 {
+  color: white;
+  margin: 0;
+}
+
+.box {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.center {
+  max-width: 380px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+input, select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  font-size: 17px;
+  border: 2px solid #c7d2fe;
+  border-radius: 12px;
+}
+
+button {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.logout {
+  background: rgba(255,255,255,0.25);
+  border: 2px solid white;
+}
+
+.red {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.tabs button {
+  background: #e0e7ff;
+  color: #3730a3;
+  margin: 3px;
+}
+
+.tabs button.on {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  color: white;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select {
+  flex: 1;
+  min-width: 160px;
+}
+
+.banner {
+  text-align: center;
+  padding: 22px;
+  border-radius: 18px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.banner .face {
+  font-size: 70px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 26px;
+}
+
+.green {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.yellow {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.redbg {
+  background: linear-gradient(135deg, #f87171, #dc2626);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-bottom: 15px;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 16px;
+  color: #1f2937;
+}
+
+.card .icon {
+  font-size: 34px;
+}
+
+.card .num {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.c-blue {
+  background: #dbeafe;
+}
+
+.c-green {
+  background: #dcfce7;
+}
+
+.c-yellow {
+  background: #fef9c3;
+}
+
+.c-pink {
+  background: #fce7f3;
+}
+
+.c-purple {
+  background: #ede9fe;
+}
+
+.c-orange {
+  background: #ffedd5;
+}
+
+.bar {
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  height: 14px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.bar i {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.stat {
+  color: white;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.stat b {
+  display: block;
+  font-size: 30px;
+}
+
+.s1 {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+}
+
+.s2 {
+  background: linear-gradient(135deg, #10b981, #34d399);
+}
+
+.s3 {
+  background: linear-gradient(135deg, #f97316, #fbbf24);
+}
+
+.s4 {
+  background: linear-gradient(135deg, #ec4899, #f472b6);
+}
+
+.scroll {
+  overflow: auto;
+  max-height: 560px;
+  border-radius: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+th {
+  background: #c7d2fe;
+  color: #1e3a8a;
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eef;
+  white-space: nowrap;
+}
+
+tr:hover {
+  background: #f5f3ff;
+}
+
+a {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pill {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.p-g {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.p-y {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.p-r {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .box {
+    padding: 14px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+  }
+
+  .tabs button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
